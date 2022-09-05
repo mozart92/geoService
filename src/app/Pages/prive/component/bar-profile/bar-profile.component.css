@@ -1,0 +1,11 @@
+.log-out-btn {
+    position: absolute;
+    width: 60px;
+    height: 56px;
+    line-height: 56px;
+    right: 0;
+    top: 0;
+    color: #fc4832;
+    border-left: 1px solid #eee;
+    font-size: 30px;
+}

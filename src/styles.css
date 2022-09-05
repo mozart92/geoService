@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("styles/color.css");
+@import url("styles/cs-style.css");
+@import url("styles/dashboard-style.css");
+@import url("styles/plugins.css");
+@import url("styles/reset.css");
+@import url("styles/style.css");
+
+
+.nice-select-perso {
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 5px;
+  border: solid 1px #e8e8e8;
+  box-sizing: border-box;
+  clear: both;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: normal;
+  font-weight: 400;
+  height: 48px;
+  line-height: 48px;
+  outline: 0;
+  padding-left: 18px;
+  padding-right: 30px;
+  position: relative;
+  text-align: left!important;
+  transition: all .2s ease-in-out;
+  -webkit-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  width: auto;
+  background: #F5F7FB;
+  float: left;
+  width: 100%;
+  color: #7d93b2;
+  font-family: 'Jost', sans-serif;
+  border: 1px solid #e5e7f2;
+}
+
+.nice-select-perso:after {
+  font-family: Font Awesome\ 5 Pro;
+  content: "\f0d7";
+  display: block;
+  margin-top: -5px;
+  pointer-events: none;
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  font-weight: 600;
+  height: 10px;
+  line-height: 10px;
+  transition: all .15s ease-in-out;
+  width: 5px;
+}

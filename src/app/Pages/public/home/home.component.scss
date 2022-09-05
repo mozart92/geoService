@@ -1,0 +1,33 @@
+#main{
+  opacity: 1 !important;
+}
+
+.more-opt_btn{
+  top: 0;
+}
+
+.top-search-content-title-perso {
+  height: 45px;
+  line-height: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #566985;
+  width: auto;
+  display: table;
+  float: right;
+
+  & > span{
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.btn-perso{
+  line-height: 49px;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 15px;
+}
+

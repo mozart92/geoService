@@ -1,0 +1,25 @@
+.container > .row:first-child{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container{
+    background: #676161;
+    position: relative;
+    top: 150px;
+    border-radius: 10px;
+}
+
+h1, h6, label{
+    color: white;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+h6{
+    font-size: 15px;
+    font-weight: 100;
+}

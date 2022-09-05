@@ -1,0 +1,165 @@
+    <!-- main -->
+    <div id="main">
+        <div id="wrapper">
+            <div class="dashboard-content">
+                <div class="dashboard-menu-btn color-bg"><span><i class="fas fa-bars"></i></span>Dasboard Menu</div>
+                <div class="container dasboard-container">
+                    <div>
+                        <app-bar-profile [tilte]="tilte"></app-bar-profile>
+                    </div>
+                    <div class="dasboard-wrapper fl-wrap">
+                        <div class="dasboard-listing-box fl-wrap">
+                            <div class="dasboard-opt sl-opt fl-wrap">
+                                <div class="dashboard-search-listing">
+                                    <input type="text" placeholder="Recherche..." value="">
+                                    <button type="submit"><i class="far fa-search"></i></button>
+                                </div>
+                                <a href="/user/add-service" class="gradient-bg dashboard-addnew_btn">Nouveau poste <i class="fal fa-plus"></i></a>
+                                <!-- price-opt-->
+                                <div class="price-opt">
+                                    <span class="price-opt-title">Ordre d'affichage: </span>
+                                    <div class="listsearch-input-item">
+                                        <select data-placeholder="Lastes" class="nice-select" >
+                                            <option>Dernières</option>
+                                            <option>Anciennes</option>
+                                            <option>Average rating</option>
+                                            <option>Nom: A-Z</option>
+                                            <option>Nom: Z-A</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- price-opt end-->
+                            </div>
+                            <!-- dashboard-listings-wrap-->
+                            <div class="dashboard-listings-wrap fl-wrap">
+                                <div class="row">
+                                    <!-- dashboard-listings-item-->
+                                    <div class="col-md-6">
+                                        <div class="dashboard-listings-item fl-wrap">
+                                            <div class="dashboard-listings-item_img">
+                                                <div class="bg-wrap">
+                                                    <div class="bg  "  data-bg="assets/images/all/1.jpg"></div>
+                                                </div>
+                                                <div class="overlay"></div>
+                                                <a href="/detail" class="color-bg">Voir</a>
+                                            </div>
+                                            <div class="dashboard-listings-item_content">
+                                                <h4>Gorgeous House For Sale</h4>
+                                                <div class="geodir-category-location">
+                                                    <a href="#"><i class="fas fa-map-marker-alt"></i> <span>  70 Bright St New York, USA</span></a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="dashboard-listings-item_opt">
+                                                    <span class="viewed-counter"> Modjo Mozart </span>
+                                                    <ul>
+                                                        <li><a href="#" class="tolt" data-microtip-position="top-left"  data-tooltip="Modifier"><i class="far fa-edit"></i></a></li>
+                                                        <li><a href="#" class="tolt" data-microtip-position="top-left"  data-tooltip="Supprimer"><i class="far fa-trash-alt"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- dashboard-listings-item end-->
+                                    <!-- dashboard-listings-item-->
+                                    <div class="col-md-6">
+                                        <div class="dashboard-listings-item fl-wrap">
+                                            <div class="dashboard-listings-item_img">
+                                                <div class="bg-wrap">
+                                                    <div class="bg  "  data-bg="assets/images/all/1.jpg"></div>
+                                                </div>
+                                                <div class="overlay"></div>
+                                                <a href="/detail" class="color-bg">Voir</a>
+                                            </div>
+                                            <div class="dashboard-listings-item_content">
+                                                <h4>Luxury Family Home</h4>
+                                                <div class="geodir-category-location">
+                                                    <a href="#"><i class="fas fa-map-marker-alt"></i> <span>    40 Journal Square  , NJ, USA</span></a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="dashboard-listings-item_opt">
+                                                    <span class="viewed-counter">Rene Moyap</span>
+                                                    <ul>
+                                                        <li><a href="#" class="tolt" data-microtip-position="top-left"  data-tooltip="Modifier"><i class="far fa-edit"></i></a></li>
+                                                        <li><a href="#" class="tolt" data-microtip-position="top-left"  data-tooltip="Supprimer"><i class="far fa-trash-alt"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- dashboard-listings-item end-->
+                                    <!-- dashboard-listings-item-->
+                                    <div class="col-md-6">
+                                        <div class="dashboard-listings-item fl-wrap">
+                                            <div class="dashboard-listings-item_img">
+                                                <div class="bg-wrap">
+                                                    <div class="bg  "  data-bg="assets/images/all/1.jpg"></div>
+                                                </div>
+                                                <div class="overlay"></div>
+                                                <a href="/detail" class="color-bg">Voir</a>
+                                            </div>
+                                            <div class="dashboard-listings-item_content">
+                                                <h4>Family House for Rent</h4>
+                                                <div class="geodir-category-location">
+                                                    <a href="#"><i class="fas fa-map-marker-alt"></i> <span>   34-42 Montgomery St , NY, USA</span></a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="dashboard-listings-item_opt">
+                                                    <span class="viewed-counter">Arnold Kouasseu</span>
+                                                    <ul>
+                                                        <li><a href="#" class="tolt" data-microtip-position="top-left"  data-tooltip="Modifier"><i class="far fa-edit"></i></a></li>
+                                                        <li><a href="#" class="tolt" data-microtip-position="top-left"  data-tooltip="Supprimer"><i class="far fa-trash-alt"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- dashboard-listings-item end-->
+                                    <!-- dashboard-listings-item-->
+                                    <div class="col-md-6">
+                                        <div class="dashboard-listings-item fl-wrap">
+                                            <div class="dashboard-listings-item_img">
+                                                <div class="bg-wrap">
+                                                    <div class="bg  "  data-bg="assets/images/all/1.jpg"></div>
+                                                </div>
+                                                <div class="overlay"></div>
+                                                <a href="/detail" class="color-bg">Voir</a>
+                                            </div>
+                                            <div class="dashboard-listings-item_content">
+                                                <h4>Contemporary Apartment</h4>
+                                                <div class="geodir-category-location">
+                                                    <a href="#"><i class="fas fa-map-marker-alt"></i> <span>   W 85th St, New York, USA</span></a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="dashboard-listings-item_opt">
+                                                    <span class="viewed-counter">Joel Ndjinang</span>
+                                                    <ul>
+                                                        <li><a href="#" class="tolt" data-microtip-position="top-left"  data-tooltip="Modifier"><i class="far fa-edit"></i></a></li>
+                                                        <li><a href="#" class="tolt" data-microtip-position="top-left"  data-tooltip="Supprimer"><i class="far fa-trash-alt"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- dashboard-listings-item end-->
+                                </div>
+                            </div>
+                            <!-- dashboard-listings-wrap end-->
+                        </div>
+                        <!-- pagination-->
+                        <div class="pagination float-pagination">
+                            <a href="#" class="prevposts-link"><i class="fa fa-caret-left"></i></a>
+                            <a href="#" >1</a>
+                            <a href="#" class="current-page">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#" class="nextposts-link"><i class="fa fa-caret-right"></i></a>
+                        </div>
+                        <!-- pagination end-->
+                    </div>
+                </div>
+            </div>
+            <!-- content end -->
+            <div class="dashbard-bg gray-bg"></div>
+        </div>
+        <!-- wrapper end -->
+    </div>

@@ -1,0 +1,17 @@
+#main{
+    opacity: 1;
+}
+
+.card-info-content .agent_card-title {
+  border-bottom: 4px solid white;
+}
+
+.content-tabs:before {
+  left: 20%;
+  height: 2px;
+  background: #000;
+}
+
+.card-info-content {
+  padding: 0 30px 0 30px;
+}
